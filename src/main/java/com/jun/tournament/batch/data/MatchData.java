@@ -1,8 +1,10 @@
 package com.jun.tournament.batch.data;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 public class MatchData {
 	private String id;
 	private String city;
